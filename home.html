@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="parent grid grid-cols-1 sm:grid-cols-4 mt-10 mx-5">
+      <!-- top vertical section -->
+      <div class="parent grid col-span-1">hello</div>
+
+      <!-- top horizontal section -->
+      <div class="parent grid col-span-3">
+        <div class="parent flex">
+          <div class="parent w-1/4 flex">
+            <h1 class="font-semibold md:text-xl lg:text-2xl mt-2">
+              Explore Mentors
+            </h1>
+          </div>
+          <div class="parent flex w-3/4 justify-end gap-5">
+            <div
+              class="rounded-full w-10 h-10 mt-2 border-2 border-[#F5F5F7]-600"
+            >
+              <img
+                src="/assets/images/Notification.svg"
+                class="w-5 h-5 mt-2 ml-2"
+              />
+            </div>
+            <div class="mr-5">
+              <img
+                src="/assets/images/face.jpeg"
+                class="w-14 h-14 rounded-full"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="parent grid grid-cols-2 p-2 gap-10 mt-2">
+          <div
+            class="border-2 border-[#F5F5F7]-600 p-3 rounded-lg flex justify-between"
+          >
+            <div><p>Search Mentors</p></div>
+            <div>
+              <img src="/assets/images/search-normal.svg" class="" />
+            </div>
+          </div>
+          <div class="flex gap-5 justify-end">
+            <div
+              class="w-40 border-2 border-[#F5F5F7]-600 p-3 rounded-lg flex gap-5"
+            >
+              <img src="/assets/images/element-1.svg" class="" />
+              <p class="text-sm font-semibold">Category</p>
+            </div>
+            <div
+              class="w-80 border-2 border-[#F5F5F7]-600 p-3 rounded-lg flex gap-5 justify-center"
+            >
+              <img src="/assets/images/sort.svg" class="" />
+              <p class="text-sm font-semibold">Sort By : Popular</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
