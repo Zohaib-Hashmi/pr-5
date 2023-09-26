@@ -1,73 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="parent grid grid-cols-1 sm:grid-cols-4 mt-10 mx-5">
-      <!-- top vertical section -->
-      <div class="parent grid col-span-1">hello</div>
 
-      <!-- top horizontal section -->
-      <div class="parent grid col-span-3">
-        <div class="parent flex">
-          <div class="parent w-1/4 flex">
-            <h1 class="font-semibold md:text-xl lg:text-2xl mt-2">
-              Explore Mentors
-            </h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="flex">
+    <!-- 1 -->
+    <div class="px-5 bg-white border-2 border-[F5F5F7] shadow-md w-[252px] h-[1024px]">
+      <div class="flex gap-5 pb-12 pt-5">
+        <div>
+          <img src="./assets/images/Vector.png" alt="Vector">
+        </div>
+        <div class="text-[#141522] text-3xl font-semibold cursor-pointer">
+          <h2>Nuegas</h2>
+        </div>
+      </div>
+      <div class="flex flex-col gap-6 pb-40">
+        <div class="flex gap-3 bg-[#F5F5F7] w-[170px] h-[42px] pt-2 pl-3 rounded-lg">
+          <div>
+            <img src="./assets/images/1.svg" alt="1.svg">
           </div>
-          <div class="parent flex w-3/4 justify-end gap-5">
-            <div
-              class="rounded-full w-10 h-10 mt-2 border-2 border-[#F5F5F7]-600"
-            >
-              <img
-                src="/assets/images/Notification.svg"
-                class="w-5 h-5 mt-2 ml-2"
-              />
+          <div class="text-[#141522] text-sm font-semibold cursor-pointer">
+            <h2>Overview</h2>
+          </div>
+        </div>
+        <div class="flex gap-3 pl-3">
+          <div>
+            <img src="./assets/images/2.svg" alt="1.svg">
+          </div>
+          <div class="text-[#8E92BC] text-sm cursor-pointer">
+            <h2>Task</h2>
+          </div>
+        </div>
+        <div class="flex gap-3 pl-3">
+          <div>
+            <img src="./assets/images/3.svg" alt="1.svg">
+          </div>
+          <div class="text-[#8E92BC] text-sm cursor-pointer">
+            <h2>Mentors</h2>
+          </div>
+        </div>
+        <div class="flex gap-3 pl-3">
+          <div>
+            <img src="./assets/images/4.svg" alt="1.svg">
+          </div>
+          <div class="text-[#8E92BC] text-sm cursor-pointer">
+            <h2>Message</h2>
+          </div>
+        </div>
+        <div class="flex gap-3 pl-3">
+          <div>
+            <img src="./assets/images/5.svg" alt="1.svg">
+          </div>
+          <div class="text-[#8E92BC] text-sm cursor-pointer">
+            <h2>Settings</h2>
+          </div>
+        </div>
+      </div>
+      <div class="cursor-pointer pt-52">
+        <img src="./assets/images/Help Center.png" alt="Help Center">
+      </div>
+    </div>
+    <!-- 2 -->
+    <div class="bg-[#FAFAFA] px-5 py-5">
+      <div class="flex justify-between">
+        <div class="flex flex-col gap-1">
+          <div class="text-[#141522] text-2xl font-semibold">
+            <h2>Hi, Skylar Dias</h2>
+          </div>
+          <div class="text-[#54577A] text-base font-medium">
+            <h2>Let's finish your task today!</h2>
+          </div>
+        </div>
+        <div class="flex flex-row gap-10">
+          <div class="pt-5">
+            <img src="./assets/images/notif.png" alt="Notify">
+          </div>
+          <div>
+            <img src="./assets/images/Profil.png" alt="Profile">
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-10 pt-10">
+        <div>
+          <img src="./assets/images/Nograph.png" alt="Numgraph">
+        </div>
+        <div class="bg-[#F5F5F7] px-5 py-2 rounded-lg">
+          <div class="flex justify-between pb-5">
+            <div>
+              <h2>Activity</h2>
             </div>
-            <div class="mr-5">
-              <img
-                src="/assets/images/face.jpeg"
-                class="w-14 h-14 rounded-full"
-              />
+            <div class="flex gap-3">
+              <h2>This Week</h2>
+              <img src="./assets/images/Down.svg" alt="Down Svg">
+            </div>
+          </div>
+          <img src="./assets/images/graph.png" alt="graph">
+        </div>
+      </div>
+      <div class="flex justify-between pt-10">
+        <div class="text-[#141522] text-2xl font-semibold">
+          <h2>Monthly Mentors</h2>
+        </div>
+        <div class="flex">
+          <div>
+            <img src="./assets/images/left.svg" alt="left">
+          </div>
+          <div>
+            <img src="./assets/images/right.svg" alt="right">
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-between pt-10">
+        <div class="bg-white flex flex-col gap-5 py-5 px-5 rounded-lg">
+          <div class="flex justify-between gap-10">
+            <div class="flex gap-3">
+              <div>
+                <img src="./assets/images/Photo1.png" alt="Photo1">
+              </div>
+              <div>
+                <div class="text-[#141522] text-base font-semibold">
+                  <h2>Curious George</h2>
+                </div>
+                <div class="text-[#54577A] text-xs font-medium">
+                  <h2>UI UX Design</h2>
+                </div>
+              </div>
+            </div>
+            <div class="text-[#546FFF] text-sm font-medium">
+              <h2>+ Follow</h2>
+            </div>
+          </div>
+          <div class="flex justify-between gap-10">
+            <div class="flex gap-3 font-medium">
+              <div>
+                <img src="./assets/images/Notes.svg" alt="Notes">
+              </div>
+              <div class="text-[#141522] text-sm">
+                <h2>40 Task</h2>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <div>
+                <img src="./assets/images/Star.svg" alt="Star">
+              </div>
+              <div class="text-[#141522] text-sm font-medium">
+                <h2>4,7 (750 Reviews)</h2>
+              </div>
             </div>
           </div>
         </div>
-        <div class="parent grid grid-cols-2 p-2 gap-10 mt-2">
-          <div
-            class="border-2 border-[#F5F5F7]-600 p-3 rounded-lg flex justify-between"
-          >
-            <div><p>Search Mentors</p></div>
-            <div>
-              <img src="/assets/images/search-normal.svg" class="" />
+        <div class="bg-white flex flex-col gap-5 py-5 px-5 rounded-lg">
+          <div class="flex justify-between gap-10">
+            <div class="flex gap-3">
+              <div>
+                <img src="./assets/images/Photo2.png" alt="Photo1">
+              </div>
+              <div>
+                <div class="text-[#141522] text-base font-semibold">
+                  <h2>Abraham Lincoln</h2>
+                </div>
+                <div class="text-[#54577A] text-xs font-medium">
+                  <h2>3D Design</h2>
+                </div>
+              </div>
+            </div>
+            <div class="text-[#54577A] text-sm font-medium">
+              <h2>Followed</h2>
             </div>
           </div>
-          <div class="flex gap-5 justify-end">
-            <div
-              class="w-40 border-2 border-[#F5F5F7]-600 p-3 rounded-lg flex gap-5"
-            >
-              <img src="/assets/images/element-1.svg" class="" />
-              <p class="text-sm font-semibold">Category</p>
+          <div class="flex justify-between gap-10">
+            <div class="flex gap-3 font-medium">
+              <div>
+                <img src="./assets/images/Notes.svg" alt="Notes">
+              </div>
+              <div class="text-[#141522] text-sm">
+                <h2>32 Task</h2>
+              </div>
             </div>
-            <div
-              class="w-80 border-2 border-[#F5F5F7]-600 p-3 rounded-lg flex gap-5 justify-center"
-            >
-              <img src="/assets/images/sort.svg" class="" />
-              <p class="text-sm font-semibold">Sort By : Popular</p>
+            <div class="flex gap-3">
+              <div>
+                <img src="./assets/images/Star.svg" alt="Star">
+              </div>
+              <div class="text-[#141522] text-sm font-medium">
+                <h2>4,9 (510 Reviews)</h2>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="flex justify-between pt-10">
+        <div class="text-[#141522] text-2xl font-semibold">
+          <h2>Upcoming Task</h2>
+        </div>
+        <div class="flex">
+          <div>
+            <img src="./assets/images/left.svg" alt="left">
+          </div>
+          <div>
+            <img src="./assets/images/right.svg" alt="right">
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-between">
+        <div class="bg-white">
+          <div>
+            <img src="./assets/images/Image1.png" alt="Image1">
+          </div>
+          <div>
+            <h2>Creating Mobile App Design</h2>
+            <h2>UI UX Design</h2>
+          </div>
+          <div class="flex justify-between">
+            <h2>Progress</h2>
+            <h2>75%</h2>
+          </div>
+          <div>
+            <img src="./assets/images/75.png" alt="75">
+          </div>
+          <div class="flex justify-between">
+            <div class="flex gap-2">
+              <img src="./assets/images/Time.svg" alt="Time">
+              <h2>3 Days Left</h2>
+            </div>
+            <div>
+              <img src="./assets/images/St1.png" alt="Students">
+            </div>
+          </div>
+        </div>
+        <div class="bg-white">2</div>
+      </div>
     </div>
-  </body>
+    <!-- 3 -->
+    <div>helo</div>
+  </div>
+</body>
+
 </html>
