@@ -14,36 +14,110 @@
     />
   </head>
   <body>
-    <div class="parent grid grid-cols-1 sm:grid-cols-4 mt-10 mx-5">
+    <div class="flex flex-rows-2 sm:grid-cols-4 pt-10">
       <!-- top vertical section -->
-      <div class="parent grid col-span-1">hello</div>
+      <div class="w-[530px] pl-5">
+        <div>
+          <div class="flex gap-5">
+            <img
+              src="/assets/images/book-square.svg"
+              class="w-10 cursor-pointer"
+            />
+            <p class="font-semibold text-3xl cursor-pointer">Nuegas</p>
+          </div>
+          <div class="mt-10 flex flex-col gap-5 pb-96">
+            <div class="flex gap-5">
+              <div class="">
+                <img
+                  src="/assets/images/category-2.svg"
+                  class="cursor-pointer"
+                />
+              </div>
+              <div class="">
+                <h1 class="text-[#8E92BC] text-sm font-semibold cursor-pointer">
+                  Overview
+                </h1>
+              </div>
+            </div>
+
+            <div class="flex gap-5">
+              <div class="">
+                <img src="/assets/images/book.svg" class="cursor-pointer" />
+              </div>
+              <div class="">
+                <h1
+                  class="text-[#8E92BC] text-sm font-semibold pr-6 cursor-pointer"
+                >
+                  Task
+                </h1>
+              </div>
+            </div>
+
+            <div class="flex gap-2 rounded-lg bg-[#F5F5F7] py-3">
+              <div>
+                <img
+                  src="/assets/images/user-octagon.svg"
+                  class="cursor-pointer"
+                />
+              </div>
+              <div>
+                <h1 class="text-black text-sm font-semibold cursor-pointer">
+                  Mentors
+                </h1>
+              </div>
+            </div>
+
+            <div class="flex gap-5">
+              <div class="">
+                <img src="/assets/images/message.svg" class="cursor-pointer" />
+              </div>
+              <div class="">
+                <h1 class="text-[#8E92BC] text-sm font-semibold cursor-pointer">
+                  Message
+                </h1>
+              </div>
+            </div>
+
+            <div class="flex gap-5">
+              <div class="">
+                <img
+                  src="/assets/images/setting-2.svg"
+                  class="cursor-pointer"
+                />
+              </div>
+              <div class="">
+                <h1 class="text-[#8E92BC] text-sm font-semibold cursor-pointer">
+                  Settings
+                </h1>
+              </div>
+            </div>
+          </div>
+
+          <!-- image -->
+          <div>
+            <img src="/assets/images/Help Cemter.png" alt="Help Cemter" />
+          </div>
+        </div>
+      </div>
 
       <!-- top horizontal section -->
-      <div class="parent grid col-span-3">
-        <div class="parent flex">
-          <div class="parent w-1/4 flex">
+      <div class="grid col-span-3">
+        <div class="flex">
+          <div class="w-1/4 flex">
             <h1 class="font-semibold md:text-xl lg:text-2xl mt-2">
               Explore Mentors
             </h1>
           </div>
-          <div class="parent flex w-3/4 justify-end gap-5">
-            <div
-              class="rounded-full w-10 h-10 mt-2 border-2 border-[#F5F5F7]-600"
-            >
-              <img
-                src="/assets/images/Notification.svg"
-                class="w-5 h-5 mt-2 ml-2"
-              />
+          <div class="flex w-3/4 justify-end gap-5">
+            <div>
+              <img src="/assets/images/notif.png" />
             </div>
             <div class="mr-5">
-              <img
-                src="/assets/images/face.jpeg"
-                class="w-14 h-14 rounded-full"
-              />
+              <img src="/assets/images/Profil.png" />
             </div>
           </div>
         </div>
-        <div class="parent grid grid-cols-2 p-2 gap-10 mt-2">
+        <div class="grid grid-cols-2 p-2 gap-10 mt-2">
           <div
             class="border-2 border-[#F5F5F7]-600 p-3 rounded-lg flex justify-between"
           >
@@ -64,6 +138,360 @@
             >
               <img src="/assets/images/sort.svg" class="" />
               <p class="text-sm font-semibold">Sort By : Popular</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- inner section start -->
+        <div class="bg-[#F5F5F7] p-5 mt-10">
+          <div class="flex justify-between">
+            <div class="">
+              <h1 class="text-2xl font-semibold">Recent Mentors</h1>
+            </div>
+            <div class="flex">
+              <div><img src="/assets/images/arrow-left.svg" class="" /></div>
+              <div><img src="/assets/images/arrow-right.svg" class="" /></div>
+            </div>
+          </div>
+
+          <!--  new section bekow -->
+
+          <div
+            class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5"
+          >
+            <!-- first -->
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- third column -->
+          </div>
+
+          <!-- below inner section -->
+          <div class="py-5 mt-10">
+            <div class="">
+              <h1 class="text-2xl font-semibold">Mentors</h1>
+            </div>
+          </div>
+
+          <!-- inner bottom section -->
+          <!-- first row -->
+
+          <div
+            class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5"
+          >
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+
+                <div class="my-5">
+                  <p class="text-sm font-medium text-[#8E92BC]">
+                    Hi, I'm Jessica Jane. I am a doctoral student at Harvard
+                    University majoring in Web . . .
+                  </p>
+                </div>
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  second -->
+
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+
+                <div class="my-5">
+                  <p class="text-sm font-medium text-[#8E92BC]">
+                    Hi, I'm Jessica Jane. I am a doctoral student at Harvard
+                    University majoring in Web . . .
+                  </p>
+                </div>
+
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- third -->
+
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+
+                <div class="my-5">
+                  <p class="text-sm font-medium text-[#8E92BC]">
+                    Hi, I'm Jessica Jane. I am a doctoral student at Harvard
+                    University majoring in Web . . .
+                  </p>
+                </div>
+
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  third row-->
+
+          <div
+            class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5"
+          >
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+
+                <div class="my-5">
+                  <p class="text-sm font-medium text-[#8E92BC]">
+                    Hi, I'm Jessica Jane. I am a doctoral student at Harvard
+                    University majoring in Web . . .
+                  </p>
+                </div>
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  second -->
+
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+
+                <div class="my-5">
+                  <p class="text-sm font-medium text-[#8E92BC]">
+                    Hi, I'm Jessica Jane. I am a doctoral student at Harvard
+                    University majoring in Web . . .
+                  </p>
+                </div>
+
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- third -->
+
+            <div class="">
+              <div class="bg-white w-full pl-5 pt-5 pb-5 pr-5 rounded-lg">
+                <div class="flex grid grid-cols-5">
+                  <div class="">
+                    <img src="/assets/images/face1.png" class="" />
+                  </div>
+                  <div class="col-span-2 mt-2 ml-5">
+                    <h1 class="font-semibold text-base">Jessica Jane</h1>
+                    <p class="font-normal text-xs">Web Developer</p>
+                  </div>
+                  <div class="col-span-2 grid justify-items-end">
+                    <h1 class="text-[#546FFF] font-medium text-sm mt-5">
+                      + Follow
+                    </h1>
+                  </div>
+                </div>
+
+                <div class="my-5">
+                  <p class="text-sm font-medium text-[#8E92BC]">
+                    Hi, I'm Jessica Jane. I am a doctoral student at Harvard
+                    University majoring in Web . . .
+                  </p>
+                </div>
+
+                <div class="flex mt-5 justify-between">
+                  <div class="flex">
+                    <img src="/assets/images/note-2.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">40 Task</h1>
+                  </div>
+                  <div class="flex">
+                    <img src="/assets/images/Star.svg" class="w-5" />
+                    <h1 class="font-medium text-sm ml-2">4,7 (750 Reviews)</h1>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

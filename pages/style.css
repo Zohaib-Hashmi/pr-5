@@ -2,9 +2,10 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-/* .parent {
+.parent {
   border-color: black;
   border-width: 1px;
   border-style: solid;
   padding: 2px;
-} */
+  margin: 2px;
+}
